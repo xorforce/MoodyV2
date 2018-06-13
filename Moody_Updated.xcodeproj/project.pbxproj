@@ -7,21 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6FB7FE6150E28973CF669EA7 /* Pods_Moody_Updated.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95D800560EC9B36E572E781D /* Pods_Moody_Updated.framework */; };
+		D12B5D8620CFCC2200EB154B /* ColorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12B5D8520CFCC2200EB154B /* ColorModel.swift */; };
 		D165984220CDAA2600F24BC9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D165984120CDAA2600F24BC9 /* AppDelegate.swift */; };
-		D165984420CDAA2600F24BC9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D165984320CDAA2600F24BC9 /* ViewController.swift */; };
+		D165984420CDAA2600F24BC9 /* SingleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D165984320CDAA2600F24BC9 /* SingleViewController.swift */; };
 		D165984720CDAA2600F24BC9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D165984520CDAA2600F24BC9 /* Main.storyboard */; };
 		D165984920CDAA2700F24BC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D165984820CDAA2700F24BC9 /* Assets.xcassets */; };
 		D165984C20CDAA2700F24BC9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D165984A20CDAA2700F24BC9 /* LaunchScreen.storyboard */; };
+		D165985920CDC13C00F24BC9 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D165985820CDC13C00F24BC9 /* Extensions.swift */; };
+		D165985B20CDC3B200F24BC9 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D165985A20CDC3B200F24BC9 /* Constants.swift */; };
+		D165985D20CDC4DD00F24BC9 /* DoubleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D165985C20CDC4DD00F24BC9 /* DoubleViewController.swift */; };
+		D165985F20CDC4E400F24BC9 /* RandomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D165985E20CDC4E400F24BC9 /* RandomViewController.swift */; };
+		D1B14B8A20D0F72400F6CD30 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1B14B8920D0F72400F6CD30 /* InfoViewController.swift */; };
+		D1B14B8C20D0F8F400F6CD30 /* AboutUsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1B14B8B20D0F8F400F6CD30 /* AboutUsTableViewCell.swift */; };
+		D1B14B8E20D10E4C00F6CD30 /* LibraryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1B14B8D20D10E4C00F6CD30 /* LibraryViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		89F3DAA84BE534234762D089 /* Pods-Moody_Updated.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Moody_Updated.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Moody_Updated/Pods-Moody_Updated.debug.xcconfig"; sourceTree = "<group>"; };
+		95D800560EC9B36E572E781D /* Pods_Moody_Updated.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Moody_Updated.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D12B5D8520CFCC2200EB154B /* ColorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorModel.swift; sourceTree = "<group>"; };
 		D165983E20CDAA2600F24BC9 /* Moody_Updated.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Moody_Updated.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D165984120CDAA2600F24BC9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D165984320CDAA2600F24BC9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D165984320CDAA2600F24BC9 /* SingleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleViewController.swift; sourceTree = "<group>"; };
 		D165984620CDAA2600F24BC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D165984820CDAA2700F24BC9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D165984B20CDAA2700F24BC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D165984D20CDAA2700F24BC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D165985820CDC13C00F24BC9 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		D165985A20CDC3B200F24BC9 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		D165985C20CDC4DD00F24BC9 /* DoubleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubleViewController.swift; sourceTree = "<group>"; };
+		D165985E20CDC4E400F24BC9 /* RandomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomViewController.swift; sourceTree = "<group>"; };
+		D1B14B8920D0F72400F6CD30 /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
+		D1B14B8B20D0F8F400F6CD30 /* AboutUsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutUsTableViewCell.swift; sourceTree = "<group>"; };
+		D1B14B8D20D10E4C00F6CD30 /* LibraryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryViewController.swift; sourceTree = "<group>"; };
+		EBB8AAAD841B7D7955585F46 /* Pods-Moody_Updated.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Moody_Updated.release.xcconfig"; path = "Pods/Target Support Files/Pods-Moody_Updated/Pods-Moody_Updated.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +49,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6FB7FE6150E28973CF669EA7 /* Pods_Moody_Updated.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		52B065AEF843215D92DCCCD2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				89F3DAA84BE534234762D089 /* Pods-Moody_Updated.debug.xcconfig */,
+				EBB8AAAD841B7D7955585F46 /* Pods-Moody_Updated.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8229C326F2315343F905CAA0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				95D800560EC9B36E572E781D /* Pods_Moody_Updated.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D165983520CDAA2600F24BC9 = {
 			isa = PBXGroup;
 			children = (
 				D165984020CDAA2600F24BC9 /* Moody_Updated */,
 				D165983F20CDAA2600F24BC9 /* Products */,
+				52B065AEF843215D92DCCCD2 /* Pods */,
+				8229C326F2315343F905CAA0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +94,62 @@
 		D165984020CDAA2600F24BC9 /* Moody_Updated */ = {
 			isa = PBXGroup;
 			children = (
-				D165984120CDAA2600F24BC9 /* AppDelegate.swift */,
-				D165984320CDAA2600F24BC9 /* ViewController.swift */,
-				D165984520CDAA2600F24BC9 /* Main.storyboard */,
-				D165984820CDAA2700F24BC9 /* Assets.xcassets */,
-				D165984A20CDAA2700F24BC9 /* LaunchScreen.storyboard */,
+				D165985320CDAA3000F24BC9 /* Model */,
+				D165985620CDAA3E00F24BC9 /* Util */,
+				D165985520CDAA3900F24BC9 /* Controller */,
+				D165985420CDAA3600F24BC9 /* View */,
 				D165984D20CDAA2700F24BC9 /* Info.plist */,
 			);
 			path = Moody_Updated;
+			sourceTree = "<group>";
+		};
+		D165985320CDAA3000F24BC9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D12B5D8520CFCC2200EB154B /* ColorModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D165985420CDAA3600F24BC9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D165985720CDAA4900F24BC9 /* Storyboard */,
+				D1B14B8B20D0F8F400F6CD30 /* AboutUsTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D165985520CDAA3900F24BC9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D165984320CDAA2600F24BC9 /* SingleViewController.swift */,
+				D165985C20CDC4DD00F24BC9 /* DoubleViewController.swift */,
+				D165985E20CDC4E400F24BC9 /* RandomViewController.swift */,
+				D1B14B8920D0F72400F6CD30 /* InfoViewController.swift */,
+				D1B14B8D20D10E4C00F6CD30 /* LibraryViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D165985620CDAA3E00F24BC9 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				D165984120CDAA2600F24BC9 /* AppDelegate.swift */,
+				D165984820CDAA2700F24BC9 /* Assets.xcassets */,
+				D165985820CDC13C00F24BC9 /* Extensions.swift */,
+				D165985A20CDC3B200F24BC9 /* Constants.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		D165985720CDAA4900F24BC9 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				D165984520CDAA2600F24BC9 /* Main.storyboard */,
+				D165984A20CDAA2700F24BC9 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +159,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D165985020CDAA2700F24BC9 /* Build configuration list for PBXNativeTarget "Moody_Updated" */;
 			buildPhases = (
+				67025BC01459D7C1B6CD5603 /* [CP] Check Pods Manifest.lock */,
 				D165983A20CDAA2600F24BC9 /* Sources */,
 				D165983B20CDAA2600F24BC9 /* Frameworks */,
 				D165983C20CDAA2600F24BC9 /* Resources */,
+				42D8CB0F28DC3E564B89763E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,13 +220,68 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		42D8CB0F28DC3E564B89763E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Moody_Updated/Pods-Moody_Updated-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BRYXBanner/BRYXBanner.framework",
+				"${BUILT_PRODUCTS_DIR}/ChromaColorPicker/ChromaColorPicker.framework",
+				"${BUILT_PRODUCTS_DIR}/Hue/Hue.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftMQTT/SwiftMQTT.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyButton/SwiftyButton.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BRYXBanner.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ChromaColorPicker.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Hue.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftMQTT.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyButton.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Moody_Updated/Pods-Moody_Updated-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		67025BC01459D7C1B6CD5603 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Moody_Updated-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D165983A20CDAA2600F24BC9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D165984420CDAA2600F24BC9 /* ViewController.swift in Sources */,
+				D165985D20CDC4DD00F24BC9 /* DoubleViewController.swift in Sources */,
+				D12B5D8620CFCC2200EB154B /* ColorModel.swift in Sources */,
+				D1B14B8C20D0F8F400F6CD30 /* AboutUsTableViewCell.swift in Sources */,
+				D165984420CDAA2600F24BC9 /* SingleViewController.swift in Sources */,
+				D1B14B8E20D10E4C00F6CD30 /* LibraryViewController.swift in Sources */,
+				D165985920CDC13C00F24BC9 /* Extensions.swift in Sources */,
+				D165985F20CDC4E400F24BC9 /* RandomViewController.swift in Sources */,
 				D165984220CDAA2600F24BC9 /* AppDelegate.swift in Sources */,
+				D1B14B8A20D0F72400F6CD30 /* InfoViewController.swift in Sources */,
+				D165985B20CDC3B200F24BC9 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,11 +423,13 @@
 		};
 		D165985120CDAA2700F24BC9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89F3DAA84BE534234762D089 /* Pods-Moody_Updated.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VG36S3M9UZ;
 				INFOPLIST_FILE = Moody_Updated/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -290,17 +437,19 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.bhagatsingh.Moody-Updated";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		D165985220CDAA2700F24BC9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EBB8AAAD841B7D7955585F46 /* Pods-Moody_Updated.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VG36S3M9UZ;
 				INFOPLIST_FILE = Moody_Updated/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -308,7 +457,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.bhagatsingh.Moody-Updated";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

@@ -1,0 +1,1358 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05A2DC4D6A2E167533F8889E7138673A /* SwiftMQTT-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 81C34EA42A9B3F17F8291EB523E6C8B7 /* SwiftMQTT-dummy.m */; };
+		09773DDE754761BADD0BC3E5AF0CB301 /* MQTTConnectPacket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5CF83B42919070B24CF52FE0BB7FE4 /* MQTTConnectPacket.swift */; };
+		0F2E8310657F6A3EBEBB5DB0CEEE7C38 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		139FF6DA1D05B90F2631E069C8D13832 /* BRYXBanner-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 205078DA165D7F4DF95D1325450717DC /* BRYXBanner-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		20070C9501DA782A1D5EDCB4F75AEDE2 /* Hue-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BA1E3F3F4103BC41BC801BB4E43E5A85 /* Hue-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		25A10CCE3E05A446D4F7A90F260C205C /* Pods-Moody_Updated-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FB0D2C4FC8639F433EA91DCE7FFD7173 /* Pods-Moody_Updated-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2CCA81B9BFAFFA78C63594B01881EAE9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		2CD7BD2F25A728501BCA2B2226271982 /* ChromaColorPicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 88A1840871DEEAC8C0696B9A9647ED43 /* ChromaColorPicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2E4D5146E239DD3A5D27CBF0B3F336AC /* MQTTPingPacket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8049903FD3CDB54417418EDF5914A5B9 /* MQTTPingPacket.swift */; };
+		2F6CDE3B2BA4DA36386508A448EB8C1D /* ChromaColorPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = F15B4EF84129020ACE27B934C6CE4713 /* ChromaColorPicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		326FE1985410880F271DBDD788E5DD25 /* FlatButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E64A6879C9203A566F82AFE89927394B /* FlatButton.swift */; };
+		3B6FC1DB050A52B12FF92297F1D1430B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		40035A7E409B83DCFF7FEB781C2EED00 /* ChromaColorPicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1002CEC149975F59DBD6B923467629F8 /* ChromaColorPicker-dummy.m */; };
+		46BE6075A78FD94B44FA92245C2486A4 /* ChromaAddButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669DB8181D1FBDB04B20A26750D40402 /* ChromaAddButton.swift */; };
+		4C02FFD786D4692ECAEA3DF37AEF41D7 /* MQTTConnAckPacket.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5BAAFBA6A26044BDFF5F9005833A224 /* MQTTConnAckPacket.swift */; };
+		510D6377E3AEB6DD61DA03E4466E9650 /* MQTTSubPacket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 759C14B1D313F692AE5051C784DCA37D /* MQTTSubPacket.swift */; };
+		56791E6DC27BB8F25B2F91BB539C4F33 /* MQTTSessionStreamDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F33FD9F42D84150A5AADAFA848528AB3 /* MQTTSessionStreamDelegate.swift */; };
+		58F69ED1232788CC4A4374FECB209AB4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
+		5DAC1E492269B5A383107768C518D9AE /* MQTTExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EFB21E868C93003ACB8D1047CBEB54A /* MQTTExtensions.swift */; };
+		6DCDF47EFFC2960232EA9784024309AD /* SwiftyButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B27F47CB95DE537BEDE80815C27EC739 /* SwiftyButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F2B066A3A07A4763B781D059080931D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		70CBCB67007D356F14B8EC15118BA9E3 /* Hue-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A4C23EA043C945A30ADB4EDD33718385 /* Hue-dummy.m */; };
+		7654819548331A59AAB96E83F6E9353E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
+		767C33B6BA11BDC0C0A362FF9A1A6D13 /* MQTTSubAckPacket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE98C6410BFB5196C067A884A0E6160 /* MQTTSubAckPacket.swift */; };
+		83790D4473D3F8965A7705C0EE1ADFC6 /* UIColor+Hue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048B8A3C35D7BD66079B445ABC46DBA1 /* UIColor+Hue.swift */; };
+		882A33CA52046A17A234873D4F227EAC /* MQTTUnSubAckPacket.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9BBE60EA9B16C254CAA4E03E11AF6C3 /* MQTTUnSubAckPacket.swift */; };
+		89DB36DEAA7ED6E66E87E7BF81CEA0DD /* SwiftyButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 67D3A95BF082AA8ED2AF559927864AC4 /* SwiftyButton-dummy.m */; };
+		8C81A1CEF8720A2EEE2BE86779865157 /* UIColor+Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78BBC3E56B589574027D3A8153299D37 /* UIColor+Utilities.swift */; };
+		92F8161F4E07A53E57E3EB2E1FA62238 /* ColorModeToggleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8449117B20D5C0AC255736E314772AA /* ColorModeToggleButton.swift */; };
+		962443C95E5B4A7CCB9C7E41264A1F97 /* MQTTPacketFixedHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8ED492B527DA1B492FF7EBC120FC02 /* MQTTPacketFixedHeader.swift */; };
+		9CEE806C686E8F80DADE5C41C8D20F37 /* BRYXBanner-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 97BEA98DBF89D46B2C78F336E6121D89 /* BRYXBanner-dummy.m */; };
+		A5BBF7D88B7A3A9BF60DF8DD0D066FED /* PressableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492EEC12ED3F74DCDF6E5B1983C611F0 /* PressableButton.swift */; };
+		A68F2BA4BF8484E79D982D0987FA8575 /* MQTTPingResp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6596560C2F24FBA97B3BE14A0C3DC4 /* MQTTPingResp.swift */; };
+		A71071BB37897223C0D9EC6D62A60388 /* MQTTPacket.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45CDC8FB6D27D83D90E85C9D09E2B54 /* MQTTPacket.swift */; };
+		A77AEC834CC894D090327347AE735AF8 /* MQTTPubMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACEAC8E4E6B377D2DECF6BD111FD548 /* MQTTPubMsg.swift */; };
+		AD1F767BD81799E9DB37F2B1FF2089AC /* CustomPressableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D067C58E086EF2D3A83128CA90892D7 /* CustomPressableButton.swift */; };
+		ADEAAA61642021E7D3D7CA57FF7418D6 /* MQTTSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCCB8F52E63FB0EF860C8973EAB22826 /* MQTTSession.swift */; };
+		B07E934D6A21011054A4070E6F5F3B4D /* Pods-Moody_Updated-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 070612C2E2F62D331C513B05F2F00EB6 /* Pods-Moody_Updated-dummy.m */; };
+		B61D1F78487B9627C0D318AC2971928F /* MQTTUnsubPacket.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC58C280C5A419F5BADFB431F34E9CFE /* MQTTUnsubPacket.swift */; };
+		B7D7CB8602DA588F22D01D1225A95E08 /* MQTTPublishPacket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 913B8F9D9B756370310DFC8C50E8A811 /* MQTTPublishPacket.swift */; };
+		C80D7C0E24BF8B0FB789C96E74C3DDDF /* SwiftMQTT-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 83E05E5DFBEF89C2808990636153A66D /* SwiftMQTT-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C9EF7BDE29737CD42A2F517726F62B97 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		CF264CDB3100B4C274326F95F32BC88B /* ChromaColorPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE492151C58525A6BC7627E9FA639C79 /* ChromaColorPicker.swift */; };
+		CFBD4BDD68023529A9ACE2A85EC65ADE /* Banner.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3FB5E8BED67F9590E7B0CAEC7A7BF7C /* Banner.swift */; };
+		D46D21EBE2D7351F92E09A87AD088630 /* MQTTPubAck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A3BDC20093FD47266A70C5B7FC1160 /* MQTTPubAck.swift */; };
+		D9CFA63248C86F06FC95A3696C37B509 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8586E8998C73DFD50DBB61990281D4C1 /* Utils.swift */; };
+		EB82E7DA872E98A1B0B1F66C7CE15702 /* ChromaHandle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B08728585D08079EF4CC3F67BE4D68F /* ChromaHandle.swift */; };
+		F7D1B38A60BD011D5766BB3424FFAD6F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		F85030977A6D1BAC697812B41A5905C7 /* UIImage+Hue.swift in Sources */ = {isa = PBXBuildFile; fileRef = B60B3AB73A7F1DD6501A05DBCFAB82B7 /* UIImage+Hue.swift */; };
+		FAC420FA194FDE4247D97F6AF8926979 /* MQTTDisconnectPacket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 368EC3C8CD521F40CE5E2991911A7783 /* MQTTDisconnectPacket.swift */; };
+		FB24018F9DFDC79925597D4878E12FD4 /* ChromaShadeSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003B6B65486A81A2A1F9132AF7CBE585 /* ChromaShadeSlider.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0B320DDD37029EB8AA2AEC0820C8B26B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B2542602E50EDF091ADB18B4688DF34F;
+			remoteInfo = Hue;
+		};
+		19225A424B8F34AFFA765361B2906F2E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0F3B36547C3C2CC3060475E614BCBF32;
+			remoteInfo = BRYXBanner;
+		};
+		219BC6CFACB837D77B584D38875B9F35 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1C0FBC8A8FBE096F06A480A3A3BD9C4C;
+			remoteInfo = SwiftMQTT;
+		};
+		49B7D9EB05790E004AF5953378CD8E4B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 99AA48135ECB557858428F797600458F;
+			remoteInfo = ChromaColorPicker;
+		};
+		5B6F3C307CDBE5F4DFB3A1C313B3C904 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79EEF143AAC4C0A1187BE1632592370C;
+			remoteInfo = SwiftyButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		003B6B65486A81A2A1F9132AF7CBE585 /* ChromaShadeSlider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChromaShadeSlider.swift; path = ChromaColorPicker/ChromaShadeSlider.swift; sourceTree = "<group>"; };
+		03A3BDC20093FD47266A70C5B7FC1160 /* MQTTPubAck.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MQTTPubAck.swift; path = SwiftMQTT/SwiftMQTT/Models/MQTTPubAck.swift; sourceTree = "<group>"; };
+		048B8A3C35D7BD66079B445ABC46DBA1 /* UIColor+Hue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIColor+Hue.swift"; path = "Source/iOS/UIColor+Hue.swift"; sourceTree = "<group>"; };
+		070612C2E2F62D331C513B05F2F00EB6 /* Pods-Moody_Updated-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Moody_Updated-dummy.m"; sourceTree = "<group>"; };
+		0BE98C6410BFB5196C067A884A0E6160 /* MQTTSubAckPacket.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MQTTSubAckPacket.swift; path = SwiftMQTT/SwiftMQTT/Models/MQTTSubAckPacket.swift; sourceTree = "<group>"; };
+		0EFB21E868C93003ACB8D1047CBEB54A /* MQTTExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MQTTExtensions.swift; path = SwiftMQTT/SwiftMQTT/MQTTExtensions.swift; sourceTree = "<group>"; };
+		1002CEC149975F59DBD6B923467629F8 /* ChromaColorPicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ChromaColorPicker-dummy.m"; sourceTree = "<group>"; };
+		1074DFF531E47956A2B3F80BD610F9FF /* ChromaColorPicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ChromaColorPicker.framework; path = ChromaColorPicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1201DC6A55262CF93825A3BC8FFAD020 /* ChromaColorPicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ChromaColorPicker.modulemap; sourceTree = "<group>"; };
+		1429D5751459580AB787BCD730708106 /* SwiftyButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftyButton.framework; path = SwiftyButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		15FDB72AE7D68A95B4563FDDDE826827 /* Hue-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Hue-prefix.pch"; sourceTree = "<group>"; };
+		1B7597F037019C4E65F0B77BEA81DCED /* SwiftMQTT.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftMQTT.framework; path = SwiftMQTT.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1ECA0F87B601E3747DDA791F96A76654 /* Pods-Moody_Updated.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Moody_Updated.modulemap"; sourceTree = "<group>"; };
+		205078DA165D7F4DF95D1325450717DC /* BRYXBanner-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BRYXBanner-umbrella.h"; sourceTree = "<group>"; };
+		368EC3C8CD521F40CE5E2991911A7783 /* MQTTDisconnectPacket.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MQTTDisconnectPacket.swift; path = SwiftMQTT/SwiftMQTT/Models/MQTTDisconnectPacket.swift; sourceTree = "<group>"; };
+		40DAA05362A43EF8F801A0BB036B58C6 /* Hue.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Hue.modulemap; sourceTree = "<group>"; };
+		41720E5833B1880BAE0DF1F00DD3DBCD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		492EEC12ED3F74DCDF6E5B1983C611F0 /* PressableButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PressableButton.swift; path = SwiftyButton/PressableButton.swift; sourceTree = "<group>"; };
+		4ABB53BBA7C0347E39A467CF2D883122 /* Pods-Moody_Updated.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Moody_Updated.release.xcconfig"; sourceTree = "<group>"; };
+		4B08728585D08079EF4CC3F67BE4D68F /* ChromaHandle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChromaHandle.swift; path = ChromaColorPicker/ChromaHandle.swift; sourceTree = "<group>"; };
+		4D5CF83B42919070B24CF52FE0BB7FE4 /* MQTTConnectPacket.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MQTTConnectPacket.swift; path = SwiftMQTT/SwiftMQTT/Models/MQTTConnectPacket.swift; sourceTree = "<group>"; };
+		55415DF02804E6A45B74238747C522A7 /* Hue.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Hue.framework; path = Hue.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		55A71DEEFD0377E067C66F5B140FA66C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55AA9DB081473791786B127F35E1289E /* Pods_Moody_Updated.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Moody_Updated.framework; path = "Pods-Moody_Updated.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CB4B51513E4FA13028D97CE8C06D514 /* Hue.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Hue.xcconfig; sourceTree = "<group>"; };
+		5D067C58E086EF2D3A83128CA90892D7 /* CustomPressableButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CustomPressableButton.swift; path = SwiftyButton/CustomPressableButton.swift; sourceTree = "<group>"; };
+		6261ECC5BF5FAC6DEF3A9205FC7C7600 /* Pods-Moody_Updated.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Moody_Updated.debug.xcconfig"; sourceTree = "<group>"; };
+		6482BB5EAE3A90359E8403300E8216DF /* SwiftyButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyButton-prefix.pch"; sourceTree = "<group>"; };
+		669DB8181D1FBDB04B20A26750D40402 /* ChromaAddButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChromaAddButton.swift; path = ChromaColorPicker/ChromaAddButton.swift; sourceTree = "<group>"; };
+		67752D7B20400DF069BE7D7A41E916B5 /* Pods-Moody_Updated-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Moody_Updated-frameworks.sh"; sourceTree = "<group>"; };
+		67D3A95BF082AA8ED2AF559927864AC4 /* SwiftyButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyButton-dummy.m"; sourceTree = "<group>"; };
+		72679E97B35DDB80F5DA062F0D6FE9BC /* ChromaColorPicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ChromaColorPicker-prefix.pch"; sourceTree = "<group>"; };
+		740A8C501E770136DA0634D859DC549F /* SwiftMQTT.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftMQTT.xcconfig; sourceTree = "<group>"; };
+		759C14B1D313F692AE5051C784DCA37D /* MQTTSubPacket.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MQTTSubPacket.swift; path = SwiftMQTT/SwiftMQTT/Models/MQTTSubPacket.swift; sourceTree = "<group>"; };
+		78BBC3E56B589574027D3A8153299D37 /* UIColor+Utilities.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIColor+Utilities.swift"; path = "ChromaColorPicker/UIColor+Utilities.swift"; sourceTree = "<group>"; };
+		8049903FD3CDB54417418EDF5914A5B9 /* MQTTPingPacket.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MQTTPingPacket.swift; path = SwiftMQTT/SwiftMQTT/Models/MQTTPingPacket.swift; sourceTree = "<group>"; };
+		81C34EA42A9B3F17F8291EB523E6C8B7 /* SwiftMQTT-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftMQTT-dummy.m"; sourceTree = "<group>"; };
+		83E05E5DFBEF89C2808990636153A66D /* SwiftMQTT-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftMQTT-umbrella.h"; sourceTree = "<group>"; };
+		8586E8998C73DFD50DBB61990281D4C1 /* Utils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Utils.swift; path = SwiftyButton/Utils.swift; sourceTree = "<group>"; };
+		87D2F68F7C69AE5C5E078A0E753783AF /* BRYXBanner.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BRYXBanner.xcconfig; sourceTree = "<group>"; };
+		880B45096CFA84F47E53B3DC14A29DCF /* BRYXBanner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BRYXBanner.framework; path = BRYXBanner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		88A1840871DEEAC8C0696B9A9647ED43 /* ChromaColorPicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ChromaColorPicker-umbrella.h"; sourceTree = "<group>"; };
+		8AA983828539035DDB2BD24851B96703 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		913B8F9D9B756370310DFC8C50E8A811 /* MQTTPublishPacket.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MQTTPublishPacket.swift; path = SwiftMQTT/SwiftMQTT/Models/MQTTPublishPacket.swift; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9410D14DCE1EBA0AAA10547960DEF01F /* Pods-Moody_Updated-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Moody_Updated-acknowledgements.plist"; sourceTree = "<group>"; };
+		97BEA98DBF89D46B2C78F336E6121D89 /* BRYXBanner-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BRYXBanner-dummy.m"; sourceTree = "<group>"; };
+		A4C23EA043C945A30ADB4EDD33718385 /* Hue-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Hue-dummy.m"; sourceTree = "<group>"; };
+		A8449117B20D5C0AC255736E314772AA /* ColorModeToggleButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ColorModeToggleButton.swift; path = ChromaColorPicker/ColorModeToggleButton.swift; sourceTree = "<group>"; };
+		A936CB52DA66D772659B037D1F0BA2D1 /* SwiftyButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyButton.xcconfig; sourceTree = "<group>"; };
+		AA40863B4BED1922AC95C7C1384C0D2A /* Pods-Moody_Updated-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Moody_Updated-acknowledgements.markdown"; sourceTree = "<group>"; };
+		AA9A9414104FC30CEA00BCC4D25747C9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB1218CDB34D2A7D490AD3B167B85AA4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B27F47CB95DE537BEDE80815C27EC739 /* SwiftyButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyButton-umbrella.h"; sourceTree = "<group>"; };
+		B60B3AB73A7F1DD6501A05DBCFAB82B7 /* UIImage+Hue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImage+Hue.swift"; path = "Source/iOS/UIImage+Hue.swift"; sourceTree = "<group>"; };
+		B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		BA1E3F3F4103BC41BC801BB4E43E5A85 /* Hue-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Hue-umbrella.h"; sourceTree = "<group>"; };
+		BD8ED492B527DA1B492FF7EBC120FC02 /* MQTTPacketFixedHeader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MQTTPacketFixedHeader.swift; path = SwiftMQTT/SwiftMQTT/Models/MQTTPacketFixedHeader.swift; sourceTree = "<group>"; };
+		CA6596560C2F24FBA97B3BE14A0C3DC4 /* MQTTPingResp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MQTTPingResp.swift; path = SwiftMQTT/SwiftMQTT/Models/MQTTPingResp.swift; sourceTree = "<group>"; };
+		CE492151C58525A6BC7627E9FA639C79 /* ChromaColorPicker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChromaColorPicker.swift; path = ChromaColorPicker/ChromaColorPicker.swift; sourceTree = "<group>"; };
+		D45CDC8FB6D27D83D90E85C9D09E2B54 /* MQTTPacket.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MQTTPacket.swift; path = SwiftMQTT/SwiftMQTT/Models/MQTTPacket.swift; sourceTree = "<group>"; };
+		D5CF27292D45255F58842F40A0766C2E /* BRYXBanner-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BRYXBanner-prefix.pch"; sourceTree = "<group>"; };
+		D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		E3FB5E8BED67F9590E7B0CAEC7A7BF7C /* Banner.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Banner.swift; path = Pod/Classes/Banner.swift; sourceTree = "<group>"; };
+		E64A6879C9203A566F82AFE89927394B /* FlatButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FlatButton.swift; path = SwiftyButton/FlatButton.swift; sourceTree = "<group>"; };
+		E9B90712044E62FD46857F46CDE4D5D6 /* ChromaColorPicker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ChromaColorPicker.xcconfig; sourceTree = "<group>"; };
+		E9BBE60EA9B16C254CAA4E03E11AF6C3 /* MQTTUnSubAckPacket.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MQTTUnSubAckPacket.swift; path = SwiftMQTT/SwiftMQTT/Models/MQTTUnSubAckPacket.swift; sourceTree = "<group>"; };
+		EC58C280C5A419F5BADFB431F34E9CFE /* MQTTUnsubPacket.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MQTTUnsubPacket.swift; path = SwiftMQTT/SwiftMQTT/Models/MQTTUnsubPacket.swift; sourceTree = "<group>"; };
+		EE7FFA262B56BEE8D05C25574A498197 /* SwiftMQTT.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftMQTT.modulemap; sourceTree = "<group>"; };
+		EFF0A54F702FBD85E4B933A80A160789 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F15B4EF84129020ACE27B934C6CE4713 /* ChromaColorPicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ChromaColorPicker.h; path = ChromaColorPicker/ChromaColorPicker.h; sourceTree = "<group>"; };
+		F33FD9F42D84150A5AADAFA848528AB3 /* MQTTSessionStreamDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MQTTSessionStreamDelegate.swift; path = SwiftMQTT/SwiftMQTT/MQTTSessionStreamDelegate.swift; sourceTree = "<group>"; };
+		F4F1F586E81BDCCBF6758E9D4A56B5C9 /* SwiftyButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftyButton.modulemap; sourceTree = "<group>"; };
+		F51C2CBFCE1C5F950049F79CE5D06BE1 /* BRYXBanner.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BRYXBanner.modulemap; sourceTree = "<group>"; };
+		F5BAAFBA6A26044BDFF5F9005833A224 /* MQTTConnAckPacket.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MQTTConnAckPacket.swift; path = SwiftMQTT/SwiftMQTT/Models/MQTTConnAckPacket.swift; sourceTree = "<group>"; };
+		F9E4C2D15AFA1845CFB1E41ED7016354 /* SwiftMQTT-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftMQTT-prefix.pch"; sourceTree = "<group>"; };
+		FACEAC8E4E6B377D2DECF6BD111FD548 /* MQTTPubMsg.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MQTTPubMsg.swift; path = SwiftMQTT/SwiftMQTT/Models/MQTTPubMsg.swift; sourceTree = "<group>"; };
+		FB0D2C4FC8639F433EA91DCE7FFD7173 /* Pods-Moody_Updated-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Moody_Updated-umbrella.h"; sourceTree = "<group>"; };
+		FC60CEC79377B4C101E3033B058A4E27 /* Pods-Moody_Updated-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Moody_Updated-resources.sh"; sourceTree = "<group>"; };
+		FCCB8F52E63FB0EF860C8973EAB22826 /* MQTTSession.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MQTTSession.swift; path = SwiftMQTT/SwiftMQTT/MQTTSession.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0A325AAFE109272B85689483EA39F9B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F2E8310657F6A3EBEBB5DB0CEEE7C38 /* Foundation.framework in Frameworks */,
+				7654819548331A59AAB96E83F6E9353E /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		354DE64D1AA7D8C8FC211C6BCA9466AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F2B066A3A07A4763B781D059080931D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47A3426588FF42FA11E74C6CF0FE16A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7D1B38A60BD011D5766BB3424FFAD6F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABB9758FE5547F12F3F969ABA37CF9C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9EF7BDE29737CD42A2F517726F62B97 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C11673C7206FF8F9C05D0DEEC2A36A32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B6FC1DB050A52B12FF92297F1D1430B /* Foundation.framework in Frameworks */,
+				58F69ED1232788CC4A4374FECB209AB4 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4C778F22C161741FB18E99032D63B84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CCA81B9BFAFFA78C63594B01881EAE9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19C6643FAF2C93CBEEC28655C18E7B88 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9648AC0EA5D7F93DCD524C3FB124DE8B /* BRYXBanner */,
+				553CCFB9A7EE89D3A73CA4D419294018 /* ChromaColorPicker */,
+				7DF88080CA57147F502361854BE358D0 /* Hue */,
+				BEA1F1C0B401C5680CCDC856A5B3585D /* SwiftMQTT */,
+				2A426EDC75F6A6BE005BD52010009F99 /* SwiftyButton */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		1BD207CA85CAF20D0FE51F565F9B5F32 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				40DAA05362A43EF8F801A0BB036B58C6 /* Hue.modulemap */,
+				5CB4B51513E4FA13028D97CE8C06D514 /* Hue.xcconfig */,
+				A4C23EA043C945A30ADB4EDD33718385 /* Hue-dummy.m */,
+				15FDB72AE7D68A95B4563FDDDE826827 /* Hue-prefix.pch */,
+				BA1E3F3F4103BC41BC801BB4E43E5A85 /* Hue-umbrella.h */,
+				55A71DEEFD0377E067C66F5B140FA66C /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Hue";
+			sourceTree = "<group>";
+		};
+		2A426EDC75F6A6BE005BD52010009F99 /* SwiftyButton */ = {
+			isa = PBXGroup;
+			children = (
+				5D067C58E086EF2D3A83128CA90892D7 /* CustomPressableButton.swift */,
+				E64A6879C9203A566F82AFE89927394B /* FlatButton.swift */,
+				492EEC12ED3F74DCDF6E5B1983C611F0 /* PressableButton.swift */,
+				8586E8998C73DFD50DBB61990281D4C1 /* Utils.swift */,
+				77925BFC68FB0FEF397AABB2DB5EA449 /* Support Files */,
+			);
+			name = SwiftyButton;
+			path = SwiftyButton;
+			sourceTree = "<group>";
+		};
+		3F6D50A6DE752DD633386B2553743BEE /* Pods-Moody_Updated */ = {
+			isa = PBXGroup;
+			children = (
+				41720E5833B1880BAE0DF1F00DD3DBCD /* Info.plist */,
+				1ECA0F87B601E3747DDA791F96A76654 /* Pods-Moody_Updated.modulemap */,
+				AA40863B4BED1922AC95C7C1384C0D2A /* Pods-Moody_Updated-acknowledgements.markdown */,
+				9410D14DCE1EBA0AAA10547960DEF01F /* Pods-Moody_Updated-acknowledgements.plist */,
+				070612C2E2F62D331C513B05F2F00EB6 /* Pods-Moody_Updated-dummy.m */,
+				67752D7B20400DF069BE7D7A41E916B5 /* Pods-Moody_Updated-frameworks.sh */,
+				FC60CEC79377B4C101E3033B058A4E27 /* Pods-Moody_Updated-resources.sh */,
+				FB0D2C4FC8639F433EA91DCE7FFD7173 /* Pods-Moody_Updated-umbrella.h */,
+				6261ECC5BF5FAC6DEF3A9205FC7C7600 /* Pods-Moody_Updated.debug.xcconfig */,
+				4ABB53BBA7C0347E39A467CF2D883122 /* Pods-Moody_Updated.release.xcconfig */,
+			);
+			name = "Pods-Moody_Updated";
+			path = "Target Support Files/Pods-Moody_Updated";
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				438B396F6B4147076630CAEFE34282C1 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		438B396F6B4147076630CAEFE34282C1 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */,
+				B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		553CCFB9A7EE89D3A73CA4D419294018 /* ChromaColorPicker */ = {
+			isa = PBXGroup;
+			children = (
+				669DB8181D1FBDB04B20A26750D40402 /* ChromaAddButton.swift */,
+				F15B4EF84129020ACE27B934C6CE4713 /* ChromaColorPicker.h */,
+				CE492151C58525A6BC7627E9FA639C79 /* ChromaColorPicker.swift */,
+				4B08728585D08079EF4CC3F67BE4D68F /* ChromaHandle.swift */,
+				003B6B65486A81A2A1F9132AF7CBE585 /* ChromaShadeSlider.swift */,
+				A8449117B20D5C0AC255736E314772AA /* ColorModeToggleButton.swift */,
+				78BBC3E56B589574027D3A8153299D37 /* UIColor+Utilities.swift */,
+				BFEF096E3BF8C24A69E1A6CEAB40BF33 /* Support Files */,
+			);
+			name = ChromaColorPicker;
+			path = ChromaColorPicker;
+			sourceTree = "<group>";
+		};
+		77925BFC68FB0FEF397AABB2DB5EA449 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8AA983828539035DDB2BD24851B96703 /* Info.plist */,
+				F4F1F586E81BDCCBF6758E9D4A56B5C9 /* SwiftyButton.modulemap */,
+				A936CB52DA66D772659B037D1F0BA2D1 /* SwiftyButton.xcconfig */,
+				67D3A95BF082AA8ED2AF559927864AC4 /* SwiftyButton-dummy.m */,
+				6482BB5EAE3A90359E8403300E8216DF /* SwiftyButton-prefix.pch */,
+				B27F47CB95DE537BEDE80815C27EC739 /* SwiftyButton-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftyButton";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				19C6643FAF2C93CBEEC28655C18E7B88 /* Pods */,
+				8EBF00F91F2BF88B3090F6DE5ED24507 /* Products */,
+				B0BFCC639E0D2A27BA4431B8A97FC3AD /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7DF88080CA57147F502361854BE358D0 /* Hue */ = {
+			isa = PBXGroup;
+			children = (
+				048B8A3C35D7BD66079B445ABC46DBA1 /* UIColor+Hue.swift */,
+				B60B3AB73A7F1DD6501A05DBCFAB82B7 /* UIImage+Hue.swift */,
+				1BD207CA85CAF20D0FE51F565F9B5F32 /* Support Files */,
+			);
+			name = Hue;
+			path = Hue;
+			sourceTree = "<group>";
+		};
+		8CF112375151A1B0D079FB36EF95F992 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AA9A9414104FC30CEA00BCC4D25747C9 /* Info.plist */,
+				EE7FFA262B56BEE8D05C25574A498197 /* SwiftMQTT.modulemap */,
+				740A8C501E770136DA0634D859DC549F /* SwiftMQTT.xcconfig */,
+				81C34EA42A9B3F17F8291EB523E6C8B7 /* SwiftMQTT-dummy.m */,
+				F9E4C2D15AFA1845CFB1E41ED7016354 /* SwiftMQTT-prefix.pch */,
+				83E05E5DFBEF89C2808990636153A66D /* SwiftMQTT-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftMQTT";
+			sourceTree = "<group>";
+		};
+		8EBF00F91F2BF88B3090F6DE5ED24507 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				880B45096CFA84F47E53B3DC14A29DCF /* BRYXBanner.framework */,
+				1074DFF531E47956A2B3F80BD610F9FF /* ChromaColorPicker.framework */,
+				55415DF02804E6A45B74238747C522A7 /* Hue.framework */,
+				55AA9DB081473791786B127F35E1289E /* Pods_Moody_Updated.framework */,
+				1B7597F037019C4E65F0B77BEA81DCED /* SwiftMQTT.framework */,
+				1429D5751459580AB787BCD730708106 /* SwiftyButton.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9648AC0EA5D7F93DCD524C3FB124DE8B /* BRYXBanner */ = {
+			isa = PBXGroup;
+			children = (
+				E3FB5E8BED67F9590E7B0CAEC7A7BF7C /* Banner.swift */,
+				EC13AB478549FF291E3F543B6D42AA5D /* Support Files */,
+			);
+			name = BRYXBanner;
+			path = BRYXBanner;
+			sourceTree = "<group>";
+		};
+		B0BFCC639E0D2A27BA4431B8A97FC3AD /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3F6D50A6DE752DD633386B2553743BEE /* Pods-Moody_Updated */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BEA1F1C0B401C5680CCDC856A5B3585D /* SwiftMQTT */ = {
+			isa = PBXGroup;
+			children = (
+				F5BAAFBA6A26044BDFF5F9005833A224 /* MQTTConnAckPacket.swift */,
+				4D5CF83B42919070B24CF52FE0BB7FE4 /* MQTTConnectPacket.swift */,
+				368EC3C8CD521F40CE5E2991911A7783 /* MQTTDisconnectPacket.swift */,
+				0EFB21E868C93003ACB8D1047CBEB54A /* MQTTExtensions.swift */,
+				D45CDC8FB6D27D83D90E85C9D09E2B54 /* MQTTPacket.swift */,
+				BD8ED492B527DA1B492FF7EBC120FC02 /* MQTTPacketFixedHeader.swift */,
+				8049903FD3CDB54417418EDF5914A5B9 /* MQTTPingPacket.swift */,
+				CA6596560C2F24FBA97B3BE14A0C3DC4 /* MQTTPingResp.swift */,
+				03A3BDC20093FD47266A70C5B7FC1160 /* MQTTPubAck.swift */,
+				913B8F9D9B756370310DFC8C50E8A811 /* MQTTPublishPacket.swift */,
+				FACEAC8E4E6B377D2DECF6BD111FD548 /* MQTTPubMsg.swift */,
+				FCCB8F52E63FB0EF860C8973EAB22826 /* MQTTSession.swift */,
+				F33FD9F42D84150A5AADAFA848528AB3 /* MQTTSessionStreamDelegate.swift */,
+				0BE98C6410BFB5196C067A884A0E6160 /* MQTTSubAckPacket.swift */,
+				759C14B1D313F692AE5051C784DCA37D /* MQTTSubPacket.swift */,
+				E9BBE60EA9B16C254CAA4E03E11AF6C3 /* MQTTUnSubAckPacket.swift */,
+				EC58C280C5A419F5BADFB431F34E9CFE /* MQTTUnsubPacket.swift */,
+				8CF112375151A1B0D079FB36EF95F992 /* Support Files */,
+			);
+			name = SwiftMQTT;
+			path = SwiftMQTT;
+			sourceTree = "<group>";
+		};
+		BFEF096E3BF8C24A69E1A6CEAB40BF33 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1201DC6A55262CF93825A3BC8FFAD020 /* ChromaColorPicker.modulemap */,
+				E9B90712044E62FD46857F46CDE4D5D6 /* ChromaColorPicker.xcconfig */,
+				1002CEC149975F59DBD6B923467629F8 /* ChromaColorPicker-dummy.m */,
+				72679E97B35DDB80F5DA062F0D6FE9BC /* ChromaColorPicker-prefix.pch */,
+				88A1840871DEEAC8C0696B9A9647ED43 /* ChromaColorPicker-umbrella.h */,
+				EFF0A54F702FBD85E4B933A80A160789 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ChromaColorPicker";
+			sourceTree = "<group>";
+		};
+		EC13AB478549FF291E3F543B6D42AA5D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F51C2CBFCE1C5F950049F79CE5D06BE1 /* BRYXBanner.modulemap */,
+				87D2F68F7C69AE5C5E078A0E753783AF /* BRYXBanner.xcconfig */,
+				97BEA98DBF89D46B2C78F336E6121D89 /* BRYXBanner-dummy.m */,
+				D5CF27292D45255F58842F40A0766C2E /* BRYXBanner-prefix.pch */,
+				205078DA165D7F4DF95D1325450717DC /* BRYXBanner-umbrella.h */,
+				AB1218CDB34D2A7D490AD3B167B85AA4 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/BRYXBanner";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0B7F419F06BCABA09DFD7BF6962CB1EB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C80D7C0E24BF8B0FB789C96E74C3DDDF /* SwiftMQTT-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B22BA14F7BA92F0E19DDF2B482CA78F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25A10CCE3E05A446D4F7A90F260C205C /* Pods-Moody_Updated-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		537E3AFB9460117F3179E3397FA5A563 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CD7BD2F25A728501BCA2B2226271982 /* ChromaColorPicker-umbrella.h in Headers */,
+				2F6CDE3B2BA4DA36386508A448EB8C1D /* ChromaColorPicker.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4CDA07C35EEF40ECE8FC5FACAC95679 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DCDF47EFFC2960232EA9784024309AD /* SwiftyButton-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0FB9EFE5D23BF6878733455A0FD6237 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				139FF6DA1D05B90F2631E069C8D13832 /* BRYXBanner-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7A1A54E14DBFCE33CEEFA24B23A9282 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20070C9501DA782A1D5EDCB4F75AEDE2 /* Hue-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0F3B36547C3C2CC3060475E614BCBF32 /* BRYXBanner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6BD1E399966C1498C57653EC9B0AEB0 /* Build configuration list for PBXNativeTarget "BRYXBanner" */;
+			buildPhases = (
+				9D79E16B04D0743401F742E1F773820C /* Sources */,
+				354DE64D1AA7D8C8FC211C6BCA9466AB /* Frameworks */,
+				E0FB9EFE5D23BF6878733455A0FD6237 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BRYXBanner;
+			productName = BRYXBanner;
+			productReference = 880B45096CFA84F47E53B3DC14A29DCF /* BRYXBanner.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		1C0FBC8A8FBE096F06A480A3A3BD9C4C /* SwiftMQTT */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 007925561978D523163E2F2852DDEE83 /* Build configuration list for PBXNativeTarget "SwiftMQTT" */;
+			buildPhases = (
+				96DFB93B0620B732D400E03FDBA672DB /* Sources */,
+				ABB9758FE5547F12F3F969ABA37CF9C3 /* Frameworks */,
+				0B7F419F06BCABA09DFD7BF6962CB1EB /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftMQTT;
+			productName = SwiftMQTT;
+			productReference = 1B7597F037019C4E65F0B77BEA81DCED /* SwiftMQTT.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4BD76ED2BB83DF523BADA87721015C01 /* Pods-Moody_Updated */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45622B2B26AEE1861B12F27E243BD446 /* Build configuration list for PBXNativeTarget "Pods-Moody_Updated" */;
+			buildPhases = (
+				284DEBFDAFBDF3D3CB137A2EEA0F5799 /* Sources */,
+				47A3426588FF42FA11E74C6CF0FE16A6 /* Frameworks */,
+				4B22BA14F7BA92F0E19DDF2B482CA78F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DDE52F19FC126A1BA814390B918A8FFB /* PBXTargetDependency */,
+				86F14336A29D964CF99E89512EADEA88 /* PBXTargetDependency */,
+				710AB83401D8DCC72101C7357239DC5E /* PBXTargetDependency */,
+				38AC422C3707DE09AD333A8FEE23AFAD /* PBXTargetDependency */,
+				DD02244550881D8236764DFBA1B3384E /* PBXTargetDependency */,
+			);
+			name = "Pods-Moody_Updated";
+			productName = "Pods-Moody_Updated";
+			productReference = 55AA9DB081473791786B127F35E1289E /* Pods_Moody_Updated.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		79EEF143AAC4C0A1187BE1632592370C /* SwiftyButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34B7DEA8768A1D2B7CE20632E1A99E44 /* Build configuration list for PBXNativeTarget "SwiftyButton" */;
+			buildPhases = (
+				E9AF174D950CCD6A17925BCE41A0D187 /* Sources */,
+				C11673C7206FF8F9C05D0DEEC2A36A32 /* Frameworks */,
+				B4CDA07C35EEF40ECE8FC5FACAC95679 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftyButton;
+			productName = SwiftyButton;
+			productReference = 1429D5751459580AB787BCD730708106 /* SwiftyButton.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		99AA48135ECB557858428F797600458F /* ChromaColorPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 543A042E3FD27E013465D142854479E1 /* Build configuration list for PBXNativeTarget "ChromaColorPicker" */;
+			buildPhases = (
+				F57AD227BCEA188ED1CDF943F7DADE5E /* Sources */,
+				E4C778F22C161741FB18E99032D63B84 /* Frameworks */,
+				537E3AFB9460117F3179E3397FA5A563 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChromaColorPicker;
+			productName = ChromaColorPicker;
+			productReference = 1074DFF531E47956A2B3F80BD610F9FF /* ChromaColorPicker.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B2542602E50EDF091ADB18B4688DF34F /* Hue */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7517784A4541FCDE27289AB3A48C7E6 /* Build configuration list for PBXNativeTarget "Hue" */;
+			buildPhases = (
+				5447F17F074A6885C2DE5EA00B620E76 /* Sources */,
+				0A325AAFE109272B85689483EA39F9B2 /* Frameworks */,
+				F7A1A54E14DBFCE33CEEFA24B23A9282 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Hue;
+			productName = Hue;
+			productReference = 55415DF02804E6A45B74238747C522A7 /* Hue.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 8EBF00F91F2BF88B3090F6DE5ED24507 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0F3B36547C3C2CC3060475E614BCBF32 /* BRYXBanner */,
+				99AA48135ECB557858428F797600458F /* ChromaColorPicker */,
+				B2542602E50EDF091ADB18B4688DF34F /* Hue */,
+				4BD76ED2BB83DF523BADA87721015C01 /* Pods-Moody_Updated */,
+				1C0FBC8A8FBE096F06A480A3A3BD9C4C /* SwiftMQTT */,
+				79EEF143AAC4C0A1187BE1632592370C /* SwiftyButton */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		284DEBFDAFBDF3D3CB137A2EEA0F5799 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B07E934D6A21011054A4070E6F5F3B4D /* Pods-Moody_Updated-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5447F17F074A6885C2DE5EA00B620E76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70CBCB67007D356F14B8EC15118BA9E3 /* Hue-dummy.m in Sources */,
+				83790D4473D3F8965A7705C0EE1ADFC6 /* UIColor+Hue.swift in Sources */,
+				F85030977A6D1BAC697812B41A5905C7 /* UIImage+Hue.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96DFB93B0620B732D400E03FDBA672DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C02FFD786D4692ECAEA3DF37AEF41D7 /* MQTTConnAckPacket.swift in Sources */,
+				09773DDE754761BADD0BC3E5AF0CB301 /* MQTTConnectPacket.swift in Sources */,
+				FAC420FA194FDE4247D97F6AF8926979 /* MQTTDisconnectPacket.swift in Sources */,
+				5DAC1E492269B5A383107768C518D9AE /* MQTTExtensions.swift in Sources */,
+				A71071BB37897223C0D9EC6D62A60388 /* MQTTPacket.swift in Sources */,
+				962443C95E5B4A7CCB9C7E41264A1F97 /* MQTTPacketFixedHeader.swift in Sources */,
+				2E4D5146E239DD3A5D27CBF0B3F336AC /* MQTTPingPacket.swift in Sources */,
+				A68F2BA4BF8484E79D982D0987FA8575 /* MQTTPingResp.swift in Sources */,
+				D46D21EBE2D7351F92E09A87AD088630 /* MQTTPubAck.swift in Sources */,
+				B7D7CB8602DA588F22D01D1225A95E08 /* MQTTPublishPacket.swift in Sources */,
+				A77AEC834CC894D090327347AE735AF8 /* MQTTPubMsg.swift in Sources */,
+				ADEAAA61642021E7D3D7CA57FF7418D6 /* MQTTSession.swift in Sources */,
+				56791E6DC27BB8F25B2F91BB539C4F33 /* MQTTSessionStreamDelegate.swift in Sources */,
+				767C33B6BA11BDC0C0A362FF9A1A6D13 /* MQTTSubAckPacket.swift in Sources */,
+				510D6377E3AEB6DD61DA03E4466E9650 /* MQTTSubPacket.swift in Sources */,
+				882A33CA52046A17A234873D4F227EAC /* MQTTUnSubAckPacket.swift in Sources */,
+				B61D1F78487B9627C0D318AC2971928F /* MQTTUnsubPacket.swift in Sources */,
+				05A2DC4D6A2E167533F8889E7138673A /* SwiftMQTT-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D79E16B04D0743401F742E1F773820C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFBD4BDD68023529A9ACE2A85EC65ADE /* Banner.swift in Sources */,
+				9CEE806C686E8F80DADE5C41C8D20F37 /* BRYXBanner-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9AF174D950CCD6A17925BCE41A0D187 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD1F767BD81799E9DB37F2B1FF2089AC /* CustomPressableButton.swift in Sources */,
+				326FE1985410880F271DBDD788E5DD25 /* FlatButton.swift in Sources */,
+				A5BBF7D88B7A3A9BF60DF8DD0D066FED /* PressableButton.swift in Sources */,
+				89DB36DEAA7ED6E66E87E7BF81CEA0DD /* SwiftyButton-dummy.m in Sources */,
+				D9CFA63248C86F06FC95A3696C37B509 /* Utils.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F57AD227BCEA188ED1CDF943F7DADE5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46BE6075A78FD94B44FA92245C2486A4 /* ChromaAddButton.swift in Sources */,
+				40035A7E409B83DCFF7FEB781C2EED00 /* ChromaColorPicker-dummy.m in Sources */,
+				CF264CDB3100B4C274326F95F32BC88B /* ChromaColorPicker.swift in Sources */,
+				EB82E7DA872E98A1B0B1F66C7CE15702 /* ChromaHandle.swift in Sources */,
+				FB24018F9DFDC79925597D4878E12FD4 /* ChromaShadeSlider.swift in Sources */,
+				92F8161F4E07A53E57E3EB2E1FA62238 /* ColorModeToggleButton.swift in Sources */,
+				8C81A1CEF8720A2EEE2BE86779865157 /* UIColor+Utilities.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		38AC422C3707DE09AD333A8FEE23AFAD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftMQTT;
+			target = 1C0FBC8A8FBE096F06A480A3A3BD9C4C /* SwiftMQTT */;
+			targetProxy = 219BC6CFACB837D77B584D38875B9F35 /* PBXContainerItemProxy */;
+		};
+		710AB83401D8DCC72101C7357239DC5E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Hue;
+			target = B2542602E50EDF091ADB18B4688DF34F /* Hue */;
+			targetProxy = 0B320DDD37029EB8AA2AEC0820C8B26B /* PBXContainerItemProxy */;
+		};
+		86F14336A29D964CF99E89512EADEA88 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ChromaColorPicker;
+			target = 99AA48135ECB557858428F797600458F /* ChromaColorPicker */;
+			targetProxy = 49B7D9EB05790E004AF5953378CD8E4B /* PBXContainerItemProxy */;
+		};
+		DD02244550881D8236764DFBA1B3384E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftyButton;
+			target = 79EEF143AAC4C0A1187BE1632592370C /* SwiftyButton */;
+			targetProxy = 5B6F3C307CDBE5F4DFB3A1C313B3C904 /* PBXContainerItemProxy */;
+		};
+		DDE52F19FC126A1BA814390B918A8FFB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BRYXBanner;
+			target = 0F3B36547C3C2CC3060475E614BCBF32 /* BRYXBanner */;
+			targetProxy = 19225A424B8F34AFFA765361B2906F2E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1128A7B50121F06415024E03EC4D5918 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87D2F68F7C69AE5C5E078A0E753783AF /* BRYXBanner.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BRYXBanner/BRYXBanner-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BRYXBanner/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BRYXBanner/BRYXBanner.modulemap";
+				PRODUCT_MODULE_NAME = BRYXBanner;
+				PRODUCT_NAME = BRYXBanner;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1825F77D083F808E80F463DA9A7342E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A936CB52DA66D772659B037D1F0BA2D1 /* SwiftyButton.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyButton/SwiftyButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyButton/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftyButton/SwiftyButton.modulemap";
+				PRODUCT_MODULE_NAME = SwiftyButton;
+				PRODUCT_NAME = SwiftyButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		316C980C5EDE529ADB1721D611C3B946 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6261ECC5BF5FAC6DEF3A9205FC7C7600 /* Pods-Moody_Updated.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Moody_Updated/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Moody_Updated/Pods-Moody_Updated.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		553022A828EE1991F07D2D73F565AEF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		58CE816B060A41D32CEC095441D0E3E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		5E83CDC61F5E72DB036A13FBEB3F4CCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 740A8C501E770136DA0634D859DC549F /* SwiftMQTT.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftMQTT/SwiftMQTT-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftMQTT/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftMQTT/SwiftMQTT.modulemap";
+				PRODUCT_MODULE_NAME = SwiftMQTT;
+				PRODUCT_NAME = SwiftMQTT;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6AD004BCC7C2FC8359F7A1AE811A01CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A936CB52DA66D772659B037D1F0BA2D1 /* SwiftyButton.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyButton/SwiftyButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyButton/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftyButton/SwiftyButton.modulemap";
+				PRODUCT_MODULE_NAME = SwiftyButton;
+				PRODUCT_NAME = SwiftyButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		870AD35105F393009D9D7FF0D1E859C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9B90712044E62FD46857F46CDE4D5D6 /* ChromaColorPicker.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ChromaColorPicker/ChromaColorPicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ChromaColorPicker/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ChromaColorPicker/ChromaColorPicker.modulemap";
+				PRODUCT_MODULE_NAME = ChromaColorPicker;
+				PRODUCT_NAME = ChromaColorPicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		96D2174DB53B0E5B5B92A6963E133B49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5CB4B51513E4FA13028D97CE8C06D514 /* Hue.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Hue/Hue-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Hue/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Hue/Hue.modulemap";
+				PRODUCT_MODULE_NAME = Hue;
+				PRODUCT_NAME = Hue;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C3EEF33205EEBFC9FBAAC25798FCE02C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4ABB53BBA7C0347E39A467CF2D883122 /* Pods-Moody_Updated.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Moody_Updated/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Moody_Updated/Pods-Moody_Updated.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DACF38A31CDBDAB724B7826C55DB6101 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 740A8C501E770136DA0634D859DC549F /* SwiftMQTT.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftMQTT/SwiftMQTT-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftMQTT/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftMQTT/SwiftMQTT.modulemap";
+				PRODUCT_MODULE_NAME = SwiftMQTT;
+				PRODUCT_NAME = SwiftMQTT;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F7A059C6208A8BB3377C50BC333B3A5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9B90712044E62FD46857F46CDE4D5D6 /* ChromaColorPicker.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ChromaColorPicker/ChromaColorPicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ChromaColorPicker/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ChromaColorPicker/ChromaColorPicker.modulemap";
+				PRODUCT_MODULE_NAME = ChromaColorPicker;
+				PRODUCT_NAME = ChromaColorPicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FA0279C2ABD36376E5123269C692FD9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87D2F68F7C69AE5C5E078A0E753783AF /* BRYXBanner.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BRYXBanner/BRYXBanner-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BRYXBanner/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BRYXBanner/BRYXBanner.modulemap";
+				PRODUCT_MODULE_NAME = BRYXBanner;
+				PRODUCT_NAME = BRYXBanner;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FE420CADB499E310BE26ADE0EB70CB81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5CB4B51513E4FA13028D97CE8C06D514 /* Hue.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Hue/Hue-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Hue/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Hue/Hue.modulemap";
+				PRODUCT_MODULE_NAME = Hue;
+				PRODUCT_NAME = Hue;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		007925561978D523163E2F2852DDEE83 /* Build configuration list for PBXNativeTarget "SwiftMQTT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E83CDC61F5E72DB036A13FBEB3F4CCB /* Debug */,
+				DACF38A31CDBDAB724B7826C55DB6101 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				553022A828EE1991F07D2D73F565AEF8 /* Debug */,
+				58CE816B060A41D32CEC095441D0E3E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34B7DEA8768A1D2B7CE20632E1A99E44 /* Build configuration list for PBXNativeTarget "SwiftyButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6AD004BCC7C2FC8359F7A1AE811A01CE /* Debug */,
+				1825F77D083F808E80F463DA9A7342E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45622B2B26AEE1861B12F27E243BD446 /* Build configuration list for PBXNativeTarget "Pods-Moody_Updated" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				316C980C5EDE529ADB1721D611C3B946 /* Debug */,
+				C3EEF33205EEBFC9FBAAC25798FCE02C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		543A042E3FD27E013465D142854479E1 /* Build configuration list for PBXNativeTarget "ChromaColorPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				870AD35105F393009D9D7FF0D1E859C1 /* Debug */,
+				F7A059C6208A8BB3377C50BC333B3A5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6BD1E399966C1498C57653EC9B0AEB0 /* Build configuration list for PBXNativeTarget "BRYXBanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1128A7B50121F06415024E03EC4D5918 /* Debug */,
+				FA0279C2ABD36376E5123269C692FD9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7517784A4541FCDE27289AB3A48C7E6 /* Build configuration list for PBXNativeTarget "Hue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96D2174DB53B0E5B5B92A6963E133B49 /* Debug */,
+				FE420CADB499E310BE26ADE0EB70CB81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

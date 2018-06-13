@@ -1,0 +1,32 @@
+PODS:
+  - BRYXBanner (0.8.0)
+  - ChromaColorPicker (1.7)
+  - Hue (3.0.1)
+  - SwiftMQTT (2.0.0)
+  - SwiftyButton (0.8.0)
+
+DEPENDENCIES:
+  - BRYXBanner
+  - ChromaColorPicker
+  - Hue
+  - SwiftMQTT
+  - SwiftyButton
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - BRYXBanner
+    - ChromaColorPicker
+    - Hue
+    - SwiftMQTT
+    - SwiftyButton
+
+SPEC CHECKSUMS:
+  BRYXBanner: 406c3775789136531da6f3c98058be2f16e08a34
+  ChromaColorPicker: 33efa67b17cca51dd253689d18b83ac7e05642c2
+  Hue: 93e852fa6211ab35922ad8c293f51c43d6c79eb2
+  SwiftMQTT: 1223cdf3056cd9211112e3f136aa221125b457e1
+  SwiftyButton: 093e3fe2becf3ae31c0f6c1c6987b79a93fb3ecb
+
+PODFILE CHECKSUM: ff23a1f1ffc39b72d1cac8a20615d50265391da1
+
+COCOAPODS: 1.5.0
